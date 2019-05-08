@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+    <Button
+        android:padding="10dp"
+        android:id="@+id/btnProfile"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Profile person"
+        android:textSize="17sp"
+        android:drawableLeft="@drawable/ic_people_black_24dp"
+        android:background="@android:color/transparent"
+        android:textAllCaps="false"/>
+    <Button
+        android:padding="10dp"
+        android:id="@+id/btnMessage"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        android:textSize="17sp"
+        android:drawableLeft="@drawable/ic_message_black_24dp"
+        android:background="@android:color/transparent"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>

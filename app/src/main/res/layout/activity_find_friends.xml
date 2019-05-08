@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".ViewActivity.FindFriendsActivity">
+
+    <include
+        android:id="@+id/toolbarFind"
+        layout="@layout/app_bar_layout" />
+
+    <TextView
+        android:id="@+id/textFind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="@string/please_enter_to_find_your_friend"
+        android:textSize="17sp" />
+
+    <LinearLayout
+        android:weightSum="10"
+        android:id="@+id/linearlayoutS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edtSearch"
+            android:layout_weight="8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:textSize="19sp"
+            android:hint="@string/search_here"
+            android:background="@drawable/search_layout"
+            android:inputType="" />
+        <ImageButton
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:id="@+id/search_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            app:srcCompat="@mipmap/search_button"
+            android:contentDescription="TODO" />
+    </LinearLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_find_friends"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"></android.support.v7.widget.RecyclerView>
+</LinearLayout>

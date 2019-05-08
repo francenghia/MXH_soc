@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewActivity.PostActivity">
+
+    <include
+        android:id="@+id/toolbarPost"
+        layout="@layout/app_bar_layout" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_margin="10dp"
+        android:id="@+id/edtContentPost"
+        android:layout_below="@+id/toolbarPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:hint="Enter your status or feelings ..."
+        android:inputType="text"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="20sp"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/colorPrimary"
+        app:met_singleLineEllipsis="true" />
+
+    <ImageView
+        android:id="@+id/imagePost"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/edtContentPost"
+        android:layout_margin="20dp"
+        android:src="@drawable/plus" />
+
+
+</RelativeLayout>

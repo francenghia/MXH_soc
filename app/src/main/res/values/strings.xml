@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Social Network</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="title_profile">Profile</string>
+    <string name="title_photo">photo</string>
+    <string name="title_video">video</string>
+    <string name="title_friends">Friends</string>
+
+    <string name="description">MV “Anh nói em nghe đi” của Hoàng Yến  Chibi đã chính thức lên sóng vào tối ngày 28/12. Đây là lần trở lại của Hoàng Yến sau khoảng thời gian dài vắng bóng.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="please_enter_to_find_your_friend">Please enter to find your friend !</string>
+    <string name="search_here">Search here...</string>
+
+    <string name="social_network_app">Social Network</string>
+    <string name="title_activity_find_friend_on_map">Map</string>
+    <string name="share_location_with_your_friend">Share location with your friend !</string>
+    <string name="more_photo">More Photo</string>
+</resources>
